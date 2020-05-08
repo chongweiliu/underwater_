@@ -3,5 +3,4 @@
 - 3、利用训练好的模型进行前传：`./dist_test.sh  ../configs/atss50_600-1000.py work_dirs/atss50_640.pth 1 --json_out results/atss50_640`
 - 4、将不同尺度的结果融合并进行后处理（code/ensemble）：`ensemble.py`融合atss_r50和atss_r101各个尺度的答案，transform.py矫正越界的bbox位置
 
-本次光学比赛B榜成绩0.48211259，使用了6个模型，模型的网盘地址为：
-链接: https://pan.baidu.com/s/1fEweftyL62xl0O1BqJDDnQ 提取码: tw4g
+
